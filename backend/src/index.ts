@@ -1,7 +1,5 @@
 import express, { Express, Request, Response } from "express";
-
 import {add_user} from "./users/users.ts"
-
 import configure_aws from './configure_aws.ts'
 
 // Connect to dynamodb, create table
