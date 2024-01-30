@@ -3,8 +3,8 @@ interface User {
   Username: string;
 }
 
-interface Habit {
-  
-}
-
 export { User };
+
+//Types of Habits: 
+//  <number> <task> per <period>
+  //if week, need days of week 
